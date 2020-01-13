@@ -2056,7 +2056,7 @@ input, select, textarea {
 			height: 100%;
 			left: 0;
 			/* opacity: 0.5; */
-			opacity: 0.1;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3246,9 +3246,9 @@ input, select, textarea {
 /* Tooltip text */
 .tooltip1 .tooltiptext1 {
   visibility: hidden;
-  width: 220px;
-  /* background-color: black;
-  color: #fff; */
+  width: 14vw;
+  background-color: #f7f7f7;
+  color: #49bf9d;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
@@ -3256,8 +3256,9 @@ input, select, textarea {
   /* Position the tooltip text - see examples below! */
   position: absolute;
 	z-index: 1;
-	top: 25px;
-  left: -10%;
+	top: 100%;
+	left: -5%;
+	border: 1px solid black;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -3276,8 +3277,8 @@ input, select, textarea {
 /* Tooltip text */
 .tooltip2 .tooltiptext2 {
   visibility: hidden;
-  width: 220px;
-  /* background-color: black; */
+  width: 14vw;
+  background-color: #f7f7f7;
   color: #49bf9d;
   text-align: center;
   padding: 5px 0;
@@ -3286,8 +3287,9 @@ input, select, textarea {
   /* Position the tooltip text - see examples below! */
   position: absolute;
 	z-index: 1;
-	top: -60px;
-	left: -100px;
+	left: -380%;
+	bottom: 100%;
+	border: 1px solid black;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
