@@ -3296,3 +3296,14 @@ input, select, textarea {
 .tooltip2:hover .tooltiptext2 {
   visibility: visible;
 }
+
+div.row div {
+	text-align: center;
+}
+
+div.project-wrapper div.project-subtitle {
+	width: 32%;
+}
+div.project-wrapper div.project-subtitle-separator {
+	width: 2%;
+}
